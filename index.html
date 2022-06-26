@@ -27,9 +27,9 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Bem-vindo</a></li>
-							<li><a href="#one">apresentação</a></li>
+							<li><a href="#one">Galeria</a></li>
 							<li><a href="#two">Features</a></li>
-							<li><a href="#three">Comandos</a></li>
+							<li><a href="#three">Links</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -43,13 +43,11 @@
 						<div class="inner">
 							<h1 class='texto-pagina-inicial'><img align='bottom' src="images/falbot2021.webp" class='foto-pagina-inicial' alt=''> Falbot</h1>
 							<p>O Falbot é um bot divertido e engajante focado em<br />
-							economia, apostas e interações entre usuários,<br />
+							economia, com ranks, apostas e interação entre usuários<br />
 							construa grandes riquezas, ou só se divirta!</p>
 							<ul class="actions">
 								<li><a href="index-en.html" class="button scrolly">Change to english</a></li>
-								<li><a href="https://discord.com/oauth2/authorize?client_id=742331813539872798&permissions=2147748928&scope=bot%20applications.commands" target="_blank" class="button scrolly">Me adicione</a></li>
-								<li><a href="https://twitter.com/falb0t" target="_blank" class="button scrolly">Twitter</a></li>
-								<li><a href="https://github.com/falcao-g/Falbot" target="_blank" class="button scrolly">Github</a></li>
+								<li><a href="https://discord.com/oauth2/authorize?client_id=742331813539872798&permissions=265280&scope=bot%20applications.commands" target="_blank" class="button scrolly">Me adicione</a></li>
 							</ul>
 						</div>
 					</section>
@@ -72,9 +70,9 @@
 								</div>
 								<div class='grid-item'>
 									<figure>
-										<img src='images/roleta.webp' alt=''>
+										<img src='images/slot.webp' alt=''>
 										<figcaption>
-											Aposte em diferentes jogos pela chance de ganhar grandes riquezas!
+											Aposte em diferentes jogos como o caça-níqueis pela chance de ganhar grandes riquezas!
 										</figcaption>
 									</figure>
 								</div>
@@ -91,6 +89,14 @@
 										<img src='images/roletarussa.webp' alt=''>
 										<figcaption>
 											Divirta-se com outros usuários, interaja com eles e ganhe dinheiro!
+										</figcaption>
+									</figure>
+								</div>
+								<div class='grid-item'>
+									<figure>
+										<img src='images/rankup.webp' alt=''>
+										<figcaption>
+											Suba de rank e ganhe recompensas incríveis!
 										</figcaption>
 									</figure>
 								</div>
@@ -114,22 +120,32 @@
 								<section>
 									<span class="icon major fa-gem"></span>
 									<h3>Comandos de aposta</h3>
-									<p>Aposte no cavalo certo, torça para que o caça-níquel esteja a seu favor. O Falbot possui diversas maneiras de testar sua sorte e as recompensas são grandes.</p>
+									<p>Aposte no cavalo certo, torça para que o caça-níquel esteja a seu favor ou aposte na roleta. O Falbot possui diversas maneiras divertidas de testar sua sorte e as recompensas são grandes.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-users"></span>
 									<h3>Interação com outros usuários</h3>
-									<p>O Falbot possui várias maneiras de se interagir com outros usuários, desde corrida de cavalos até compartilhar um pouco de suas riquezas, as coisas ficam ainda mais competitivas com o rank global e local!</p>
+									<p>O Falbot possui várias maneiras de se interagir com outros usuários, desafie seus amigos para jogos apostando falcoins ou compartilhe um pouco de sua riqueza. Faça aliados e inimigos na sua caminhada ao topo da leaderboard!</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-angle-double-up"></span>
+									<h3>Ranks</h3>
+									<p>Suba de rank conforme você progride no jogo, ranks te dão recompensas valiosas que te ajudam a ganhar ainda mais falcoins. Ranks também tem sua própria leaderboard.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-gamepad"></span>
 									<h3>Comandos divertidos</h3>
-									<p>Nem tudo na vida é sobre ganhar dinheiro e fazer apostas, as vezes você só quer dar umas risadas com uns comandos engraçados, não se preocupe, o Falbot também os tem.</p>
+									<p>Quer se divertir sem se preocupar com falcoins? Não se preocupe, o Falbot possuí comandos pensados justamente para isso.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-cog"></span>
 									<h3>Utilidades</h3>
 									<p>Precisa rolar alguns dados ou fazer uma conta de matemática? Falbot possui comandos úteis que te ajudam no dia a dia</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-globe"></span>
+									<h3>Idioma</h3>
+									<p>Todas as features do Falbot são disponíveis tanto em português quanto em inglês!</p>
 								</section>
 							</div>
 						</div>
@@ -138,151 +154,11 @@
 				<!-- Three -->
 					<section id="three" class="wrapper style1 fade-up">
 						<div class="inner">
-							<h2>Lista de comandos</h2>
-							<p>Uma lista com todos os comandos pode ser conferida abaixo, porém você sempre poderá acessar essas informações com <strong>/comandos</strong> ao usar o bot<br><br>
-								<strong><u>OBS:</u></strong> O prefixo padrão do Falbot é <strong>?</strong> e pode ser alterado a qualquer momento usando <strong>/prefix</strong></p>
-									<h3>Comandos para a sala de jogos</h3>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Nome</th>
-													<th>Descrição</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>/balance</strong></td>
-													<td>Mostra suas informações ou a de outro usuário</td>
-												</tr>
-												<tr>
-													<td><strong>/lootbox</strong></td>
-													<td>Resgata sua lootbox grátis</td>
-												</tr>
-												<tr>
-													<td><strong>/donation</strong></td>
-													<td>Doa falcoins para outro usuário</td>
-												</tr>
-												<tr>
-													<td><strong>/horse</strong></td>
-													<td>Aposte na corrida de cavalos</td>
-												</tr>
-												<tr>
-													<td><strong>/rank</strong></td>
-													<td>Mostra o rank global ou local</td>
-												</tr>
-												<tr>
-													<td><strong>/store</strong></td>
-													<td>Mostra os itens disponíveis para compra</td>
-												</tr>
-												<tr>
-													<td><strong>/roulette</strong></td>
-													<td>Aposte na roleta</td>
-												</tr>
-												<tr>
-													<td><strong>/slot</strong></td>
-													<td>Aposte no caça-níqueis</td>
-												</tr>
-												<tr>
-													<td><strong>/bank</strong></td>
-													<td>Deposita ou retira seus falcoins do banco</td>
-												</tr>
-												<tr>
-													<td><strong>/fight</strong></td>
-													<td>Desafie outro usuário para uma luta apostando falcoins</td>
-												</tr>
-												<tr>
-													<td><strong>/crate</strong></td>
-													<td>Abra caixas para ter a chance de ganhar prêmios</td>
-												</tr>
-												<tr>
-													<td><strong>/horseduel</strong></td>
-													<td>Desafie outros usuários para uma corrida de cavalos apostando falcoins</td>
-												</tr>
-												<tr>
-													<td><strong>/russianroulette</strong></td>
-													<td>Chame outros usuários par ver quem sobrevive mais na roleta russa</td>
-												</tr>
-												<tr>
-													<td><strong>/tictactoe</strong></td>
-													<td>Desafie outro usuário para um jogo da velha</td>
-												</tr>
-												<tr>
-													<td><strong>/vote</strong></td>
-													<td>Resgate sua recompensa depois de votar no bot no top.gg</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-
-									<h3>Comandos divertidos</h3>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Nome</th>
-													<th>Descrição</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>/poll</strong></td>
-													<td>Faz uma bonita pequena enquete para você</td>
-												</tr>
-												<tr>
-													<td><strong>/roll</strong></td>
-													<td>Rola dados para você</td>
-												</tr>
-												<tr>
-													<td><strong>/coinflip</strong></td>
-													<td>Faz um cara ou coroa um determinado numero de vezes</td>
-												</tr>
-												<tr>
-													<td><strong>/bonk</strong></td>
-													<td>Manda um usuário para a horny jail</td>
-												</tr>
-												<tr>
-													<td><strong>/bola8</strong></td>
-													<td>Prevê o seu futuro</td>
-												</tr>
-												<tr>
-													<td><strong>/foto</strong></td>
-													<td>Pesquisa uma foto no Google</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-
-									<h3>Comandos úteis</h3>
-									<div class="table-wrapper">
-										<table>
-											<thead>
-												<tr>
-													<th>Nome</th>
-													<th>Descrição</th>
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td><strong>/prefix</strong></td>
-													<td>Muda o prefixo do bot no servidor atual</td>
-												</tr>
-												<tr>
-													<td><strong>/commands</strong></td>
-													<td>Mostra a lista de comandos</td>
-												</tr>
-												<tr>
-													<td><strong>/math</strong></td>
-													<td>Faz um cálculo de matemática</td>
-												</tr>
-												<tr>
-													<td><strong>/language</strong></td>
-													<td>Muda o idioma do bot no servidor atual</td>
-												</tr>
-											</tbody>
-										</table>
-									</div>
-						</div>
+							<h2>Links importantes</h2>
+							<li><a href="https://discord.com/oauth2/authorize?client_id=742331813539872798&permissions=265280&scope=bot%20applications.commands" target="_blank" class="button scrolly">Me adicione</a></li>
+							<li><a href="https://twitter.com/falb0t" target="_blank" class="button scrolly">Twitter</a></li>
+							<li><a href="https://github.com/falcao-g/Falbot" target="_blank" class="button scrolly">Github</a></li>
+							<li><a href="https://top.gg/bot/742331813539872798" target="_blank" class="button scrolly">Top.gg</a></li>
 					</section>
 
 			</div>
