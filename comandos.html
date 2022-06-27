@@ -1,0 +1,672 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang='pt-BR'>
+
+<head>
+	<title>Comandos</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<meta name='Descrição' content='Lista de comandos do Falbot'>
+	<meta name="theme-color" content="#5e42a6"/>
+
+	<link rel="stylesheet" href="../assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="../assets/css/noscript.css" />
+	</noscript>
+	<link rel = "icon" href = 
+	"images/falbot2021.webp" 
+			type = "image/x-icon">
+</head>
+
+<body class="is-preload">
+	<!-- Sidebar -->
+		<section id="sidebar">
+			<div class="inner">
+				<nav>
+					<ul>
+						<li><a href="index.html#intro">Bem-vindo</a></li>
+						<li><a href="index.html#one">Galeria</a></li>
+						<li><a href="index.html#two">Features</a></li>
+						<li><a href="index.html#three">Links</a></li>
+					</ul>
+				</nav>
+			</div>
+		</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+		<!-- Intro -->
+		<section id="cmds" class="wrapper style1 fade-up">
+			<div class="row gtr-uniform">
+				<h1><img src="images/falbot2021.webp" height="80"
+						style="position:relative; right: -22px; top: 22px; border-radius:1em"/>&nbsp;&nbsp;&nbsp;Comandos</h1>
+			</div>
+			<div class="row gtr-uniform">
+				<div class="col-6 col-12-xsmall">
+					<input type="text" id="searchInput" onkeyup="searchCmds()" placeholder="Search for a command..."
+						style="position:relative; left: 67px; top: 20px;" />
+				</div>
+			</div>
+			<div class="inner">
+				<div></div>
+
+				<h2 style="font-size:29px;" ><code>/8ball</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Preveja seu futuro</i></p><div class="table-wrapper">
+					<table>
+					  <colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+					  </colgroup>
+					  <thead>
+					  <tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+					  </tr>
+					</thead>
+					<tbody><tr>
+						<td>question</td>
+						<td>Pergunta que você deseja fazer a bola 8 mágica</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/balance</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Vê as suas informações ou as de outro usuário</i></p><div class="table-wrapper">
+					<table>
+					  <colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+					  </colgroup>
+					  <thead>
+					  <tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+					  </tr>
+					</thead>
+					<tbody><tr>
+						<td>user</td>
+						<td>Usuário que você deseja ver as informações</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/bank view</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Vê seu saldo e outras informações úteis</i></p>
+				
+				<div></div>
+				
+				<h2 style="font-size:29px;" ><code>/bank deposit</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Deposita falcoins no banco</i></p><div class="table-wrapper">
+					<table>
+					  <colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+					  </colgroup>
+					  <thead>
+					  <tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+					  </tr>
+					</thead>
+					<tbody><tr>
+						<td>falcoins</td>
+						<td>Quantidade de falcoins a ser depositada</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/bank withdraw</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Saca falcoins do banco</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>falcoins</td>
+						<td>Quantidade de falcoins a ser sacada</td>
+						<td>sim</td>
+					</tr></tbody>
+					</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/bonk</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Mande outro usuário para a horny jail</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>user</td>
+						<td>Usuário que você quer mandar para a horny jail</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/coinflip</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Faz um cara ou coroa</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>quantity</td>
+						<td>Quantidade de moedas que você deseja jogar</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/cooldowns</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Veja o cooldown das suas ações</i></p>
+				
+				<div></div>
+
+				<h2 style="font-size:29px;" ><code>/crate</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Gasta caixas e chaves para abrir caixas</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>quantity</td>
+						<td>Quantidade de caixas que você deseja abrir</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/donation</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Doa dinheiro para outro usuário</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>user</td>
+						<td>Usuário que receberá sua doação</td>
+						<td>sim</td>
+						</tr><tr></tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você vai doar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/fight</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Desafia outro usuário para uma luta valendo falcoins</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>user</td>
+						<td>Usuário que você quer desafiar</td>
+						<td>sim</td>
+						</tr><tr></tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você quer apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/help</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Comando de ajuda</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>page</td>
+						<td>Página de ajuda</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/horse</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Aposte nos cavalos</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>horse_number</td>
+						<td>Em qual cavalo você irá apostar</td>
+						<td>sim</td>
+						</tr><tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você irá apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/horseduel</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Desafie outros usuários para uma corrida de cavalos</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você irá apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/image</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Pesquise uma imagem no google</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>search</td>
+						<td>Sobre o que você quer pesquisar uma imagem</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/language</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Vê ou muda o idioma do servidor</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>language</td>
+						<td>O idioma do bot que você deseja</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/leaderboard money</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Veja usuários rankeados por falcoins</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>type</td>
+						<td>Se a leaderboard será do server ou global</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/leaderboard rank</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Veja usuários rankeados pelo seu rank</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>type</td>
+						<td>Se a leaderboard será do server ou global</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/lootbox</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Resgate sua lootbox grátis (disponível a cada 12 horas)</i></p>
+				
+				<div></div>
+
+				<h2 style="font-size:29px;" ><code>/math</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Calcule uma expressão matemática</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>expression</td>
+						<td>A conta a ser resolvida</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/poll</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Cria uma pequena bonita enquete</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>theme</td>
+						<td>Tema da enquete</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/prefix</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Vê ou muda o prefixo do servidor</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>prefix</td>
+						<td>O prefixo que você quer que o bot tenha no servidor</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+				
+				<h2 style="font-size:29px;" ><code>/ranks view</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Veja os próximos ranks</i></p>
+				
+				<div></div>
+				
+				<h2 style="font-size:29px;" ><code>/ranks all</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Veja todos os ranks</i></p>
+
+				<div></div>
+				
+				<h2 style="font-size:29px;" ><code>/ranks rankup</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Sobe de rank</i></p>
+				
+				<div></div>
+
+				<h2 style="font-size:29px;" ><code>/roll</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Faça o bot rolar dados para você</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>dice</td>
+						<td>Dados que serão rolados</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/roulette</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Aposte na roleta</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>type</td>
+						<td>Tipo de aposta: <preto/vermelho/verde>, <0-36>, <altos/baixos>, <par/impar></td>
+						<td>sim</td>
+						<tr></tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você irá apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/russianroulette</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Desafie outros usuários para uma roleta russa</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você irá apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/slot</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Aposte no caça-níquel</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você irá apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/snake</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Jogue o famoso jogo da cobrinha</i></p>
+				
+				<div></div>
+
+				<h2 style="font-size:29px;" ><code>/store</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Compre itens na loja</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>number</td>
+						<td>Número do item que você quer comprar</td>
+						<td>não</td>
+						<tr></tr>
+						<td>quantity</td>
+						<td>Quantos daquele item você quer comprar</td>
+						<td>não</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/tictactoe</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Desafia outro usuário para um jogo da velha valendo falcoins</i></p><div class="table-wrapper">
+					<table>
+						<colgroup>
+						<col span="1" style="width: 20%;">
+						<col span="1" style="width: 50%;">
+						<col span="1" style="width: 90%;">
+						</colgroup>
+						<thead>
+						<tr>
+						<th>Opção</th>
+						<th>Descrição</th>
+						<th>Necessária?</th>
+						</tr>
+					</thead>
+					<tbody><tr>
+						<td>user</td>
+						<td>Usuário que você quer desafiar</td>
+						<td>sim</td>
+						</tr><tr></tr>
+						<td>falcoins</td>
+						<td>Quantos falcoins você quer apostar</td>
+						<td>sim</td>
+					</tr></tbody>
+				</table></div>
+
+				<h2 style="font-size:29px;" ><code>/vote</code></h2><p style="font-size:22px; position:relative; left: 6px; bottom: 4px;"><i>Ganhe falcoins de graça votando para o bot</i></p>
+				
+				<div></div>
+			</div>
+
+			</div>
+		</section>
+	</div>
+
+	<!-- Scripts -->
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.scrollex.min.js"></script>
+	<script src="../assets/js/jquery.scrolly.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+	<script>
+		function searchCmds() {
+			let input = document.getElementById("searchInput");
+			let headers = Array.from(document.getElementsByTagName("h2")).slice(0)
+			let paragraphs = Array.from(document.getElementsByTagName("p")).slice(0)
+			let divs = Array.from(document.getElementsByTagName("div")).slice(7)
+			for (i = 0; i < headers.length; i++) {
+				if (headers[i].outerText.toUpperCase().indexOf(input.value.toUpperCase()) > -1) {
+					headers[i].style.display = "";
+					paragraphs[i].style.display = "";
+					divs[i].style.display = "";
+				} else {
+					headers[i].style.display = "none";
+					paragraphs[i].style.display = "none";
+					divs[i].style.display = "none";
+				}
+			}
+		}
+	</script>
+</body>
+
+</html>
