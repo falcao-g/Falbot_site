@@ -245,6 +245,11 @@ textarea {
 	width: 90%;
 }
 
+.links {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em
+}
+
 /* Basic */
 
 @-ms-viewport {
