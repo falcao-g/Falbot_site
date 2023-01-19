@@ -245,9 +245,21 @@ textarea {
 	width: 90%;
 }
 
+#terms {
+	font-size: 0.9em;
+	display: flex;
+	flex-direction: column;
+	text-align: flex-start;
+	padding-left: 0.8em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 0.3em;
+	color: rgba(255, 255, 255, 0.75);
+}
+
 .links {
 	margin-top: 0.5em;
-	margin-bottom: 0.5em
+	margin-bottom: 0.5em;
 }
 
 /* Basic */
